@@ -1,4 +1,4 @@
-package aula01;
+package aula04;
 
 class Carro {
 
@@ -11,7 +11,32 @@ class Carro {
 	int aroRodas;
 	String tipoCarro;
 	
+	Carro(){
+		this.tracao = true;
+	}
 	
+	Carro(String modelo, boolean t, int ano){
+		this.modelo = modelo;
+		this.tracao = t;
+		this.anoDeFabricacao = ano;		
+	}
+	
+	Carro(String modelo, String cor, String motor, int ano, int quant, boolean t, int aro, String tipo){
+		this.modelo = modelo;
+		this.tracao = t;
+		this.anoDeFabricacao = ano;
+		this.cor = cor;
+		this.motor = motor;
+		this.quantMarchas = quant;
+		this.aroRodas = aro;
+		this.tipoCarro = tipo;
+	}
+	
+	Carro(String modelo){
+		this.modelo = modelo;
+	}
+	
+
 	void ligar(){
 		System.out.println("O carro " + modelo + " ligou!");
 	}

@@ -1,4 +1,4 @@
-package aula01;
+package aula02;
 
 class Carro {
 
@@ -10,7 +10,6 @@ class Carro {
 	boolean tracao;
 	int aroRodas;
 	String tipoCarro;
-	
 	
 	void ligar(){
 		System.out.println("O carro " + modelo + " ligou!");

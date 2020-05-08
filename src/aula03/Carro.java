@@ -1,4 +1,4 @@
-package aula01;
+package aula03;
 
 class Carro {
 
@@ -10,8 +10,34 @@ class Carro {
 	boolean tracao;
 	int aroRodas;
 	String tipoCarro;
+	private static int quantPneus=4;
 	
+	Carro(){
+		this.tracao = true;
+	}
 	
+	Carro(String modelo, boolean t, int ano){
+		this.modelo = modelo;
+		this.tracao = t;
+		this.anoDeFabricacao = ano;		
+	}
+	
+	Carro(String modelo, String cor, String motor, int ano, int quant, boolean t, int aro, String tipo){
+		this.modelo = modelo;
+		this.tracao = t;
+		this.anoDeFabricacao = ano;
+		this.cor = cor;
+		this.motor = motor;
+		this.quantMarchas = quant;
+		this.aroRodas = aro;
+		this.tipoCarro = tipo;
+	}
+	
+	Carro(String modelo){
+		this.modelo = modelo;
+	}
+	
+
 	void ligar(){
 		System.out.println("O carro " + modelo + " ligou!");
 	}
@@ -53,6 +79,14 @@ class Carro {
 			System.out.println("Carro não traçado!");
 		}
 		System.out.println("====================================");
+	}
+
+	public static int getQuantPneus() {
+		return quantPneus;
+	}
+
+	public static void setQuantPneus(int quantPneus) {
+		Carro.quantPneus = quantPneus;
 	}
 
 }
