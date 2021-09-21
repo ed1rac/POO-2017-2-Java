@@ -9,6 +9,10 @@
 
 [Java?](#Python)
 
+[Slides utilizados na disciplina](https://github.com/ed1rac/POO-2017-2-Java/blob/master/slides/slides.md)
+
+[Programas feitos em sala de aula](https://github.com/ed1rac/POO-2017-2-Java/tree/master/src)
+
 [Contatos do professor:](#Contatos-do-professor)
 
 ---
