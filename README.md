@@ -1,12 +1,11 @@
 # ☕ Programação Orientada a Objetos em Java (2017.2)
 
 <div align="center">
-
-[![Java](https://img.shields.io/badge/Java-SE-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![Paradigm](https://img.shields.io/badge/POO-Encapsulamento_%7C_Herança_%7C_Polimorfismo-blueviolet?style=for-the-badge)](https://github.com/ed1rac/POO-2017-2-Java)
-
-**Projetos, slides e exercícios desenvolvidos para o semestre letivo de 2017.2 na disciplina de Programação Orientada a Objetos em Java.**
-
+  <p>
+    <a href="https://www.oracle.com/java/"><img src="https://img.shields.io/badge/Java-SE-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"></a>
+    <a href="https://github.com/ed1rac/POO-2017-2-Java"><img src="https://img.shields.io/badge/POO-Encapsulamento_%7C_Herança_%7C_Polimorfismo-blueviolet?style=for-the-badge" alt="Paradigm"></a>
+  </p>
+  <p><strong>Projetos, slides e exercícios desenvolvidos para o semestre letivo de 2017.2 na disciplina de Programação Orientada a Objetos em Java.</strong></p>
 </div>
 
 ---
